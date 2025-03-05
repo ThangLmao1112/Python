@@ -2,7 +2,7 @@ import pyodbc
 
 conn = pyodbc.connect(
     'DRIVER={SQL Server};'
-    'SERVER=HOANGPHUC;'
+    'SERVER=QUOCTHANG;'
     'DATABASE=QLSinhVien;'
     'UID=h1;'
     'PWD=1'

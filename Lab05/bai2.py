@@ -7,7 +7,7 @@ ds_mon_an = []
 
 conn = pyodbc.connect(
     'DRIVER={SQL Server};'
-    'SERVER=HOANGPHUC;'
+    'SERVER=QUOCTHANG;'
     'DATABASE=QLMonAn;'
     'UID=h1;'
     'PWD=1'
