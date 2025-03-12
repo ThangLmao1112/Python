@@ -6,11 +6,8 @@ import pyodbc
 ds_mon_an = []
 
 conn = pyodbc.connect(
-    'DRIVER={SQL Server};'
-    'SERVER=QUOCTHANG;'
-    'DATABASE=QLMonAn;'
-    'UID=h1;'
-    'PWD=1'
+    '''DRIVER={SQL Server};
+                      SERVER=.;DATABASE=QLMonAn;Trusted_Connection=yes;Encrypt=no'''
 )
 cursor = conn.cursor()
 
